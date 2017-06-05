@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dequeueGenericCell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension UITableView {
+    func dequeueCell&lt;T: UITableViewCell&gt;(with identifier: String, for indexPath: IndexPath) -&gt; T {
+        return dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! T
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>34471D06-76C8-4E40-94C0-A5DD6F7C5B83</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>This generic method will allow you to get custom cell’s reference without force casting!</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Dequeue Generic Cell - TableView Extension</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
