@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>reswiftReducer</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import ReSwift
+// the reducer is responsible for evolving the application state based on the actions it receives
+func &lt;#reducerFunction#&gt;(action: Action, state: &lt;#stateStruct#&gt;?) -&gt; &lt;#stateStruct#&gt; {
+    // if no state has been provided, create the default state
+    var state = state ?? &lt;#stateStruct#&gt;()
+    
+    switch action {
+    case let action as &lt;#action#&gt;:
+        state.&lt;#variable#&gt; = &lt;#value#&gt;
+    default:
+        break
+    }
+    
+    return state
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D85E7A08-3A74-4710-BA02-837E58AF14C7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Reswift Reducer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
