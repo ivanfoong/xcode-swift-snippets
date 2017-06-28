@@ -16,7 +16,7 @@ struct &lt;#State#&gt;: StateType {
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BECC0844-1495-4509-AB13-AC44E42C97D3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Reswift State</string>
 	<key>IDECodeSnippetUserSnippet</key>

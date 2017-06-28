@@ -3,23 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>reswiftAction</string>
+	<string>trycatch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import ReSwift
-struct &lt;#Action#&gt;: Action {}</string>
+	<string>do {
+            try &lt;#code#&gt;
+        } catch &lt;#errortype#&gt; {
+            &lt;#code#&gt;
+        } catch &lt;#errortype#&gt; {
+            &lt;#code#&gt;
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>41353EDB-4134-4787-B329-1897F16EF95C</string>
+	<string>EE6D9B3A-5470-48AB-BAFB-E70776145C19</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Reswift Action</string>
+	<string>Try Catch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

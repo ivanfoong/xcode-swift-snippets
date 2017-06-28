@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>reswiftAction</string>
+	<string>typealias</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import ReSwift
-struct &lt;#Action#&gt;: Action {}</string>
+	<string>typealias &lt;#alias#&gt; = &lt;#existingtype#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>41353EDB-4134-4787-B329-1897F16EF95C</string>
+	<string>5BFD2DB0-F82F-4C66-BAF8-0D8911A5C525</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Reswift Action</string>
+	<string>Type Alias</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

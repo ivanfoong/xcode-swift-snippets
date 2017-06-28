@@ -28,7 +28,7 @@ func &lt;#reducerFunction#&gt;(action: Action, state: &lt;#stateStruct#&gt;?) -&
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D85E7A08-3A74-4710-BA02-837E58AF14C7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Reswift Reducer</string>
 	<key>IDECodeSnippetUserSnippet</key>
