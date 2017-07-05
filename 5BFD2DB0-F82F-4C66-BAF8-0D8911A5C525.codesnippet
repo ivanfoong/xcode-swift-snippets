@@ -14,11 +14,13 @@
 	<string>5BFD2DB0-F82F-4C66-BAF8-0D8911A5C525</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>typealias</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Type Alias</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
